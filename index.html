@@ -19,14 +19,14 @@
         embedded
         arjs="sourceType: webcam;  sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;"
 >
-    <a-text
-            value="This content will always face you."
-            look-at="[gps-camera]"
-            scale="120 120 120"
-            gps-entity-place="latitude: 45.812377; longitude: 9.082887;"
-    ></a-text>
+<!--    <a-text-->
+<!--            value="This content will always face you."-->
+<!--            look-at="[gps-camera]"-->
+<!--            scale="120 120 120"-->
+<!--            gps-entity-place="latitude: 45.812377; longitude: 9.082887;"-->
+<!--    ></a-text>-->
     <a-camera gps-camera rotation-reader> </a-camera>
-    <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 12.489820; latitude: 41.892590;" animation-mixer/>
+    <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="latitude: 45.812377; longitude: 9.082887;" animation-mixer/>
 </a-scene>
 </body>
 </html>
